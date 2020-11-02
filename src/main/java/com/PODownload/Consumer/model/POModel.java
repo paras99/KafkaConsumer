@@ -20,19 +20,19 @@ public class POModel {
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-   int PO_number;
-   @Column(name="PO_date")
-   String PO_date;
-   @Column(name="PO_address")
-   String PO_address;
-   @Column(name="PO_line_number")
-   int PO_line_number;
-   @Column(name="UPC_number")
-   int UPC_number;
-   @Column(name="UPC_name")
-   String UPC_name;
-   @Column(name="ordered_quantity")
-   int ordered_quantity;
+   Integer poNumber;
+   @Column(name="poDate")
+   String poDate;
+   @Column(name="poAddress")
+   String poAddress;
+   @Column(name="poLineNumber")
+   Integer poLineNumber;
+   @Column(name="upcNumber")
+   Integer upcNumber;
+   @Column(name="upcName")
+   String upcName;
+   @Column(name="orderedQuantity")
+   Integer orderedQuantity;
 
 }
 
